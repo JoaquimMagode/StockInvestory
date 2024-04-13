@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joaquim Magode Software</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="container-fluid row content">
+        <section class="sidebar col-2 bg-dark">
+            <div class="items-sidebar m-3 text-light">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light-1">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-light-1">All Entries & Bill</a>
+                    </li>
+                     <li class="nav-item">
+                        <a href="managerstaff.html" class="nav-link text-light-1">Manage Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="settings.html" class="nav-link text-light-1">Settings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light-1">Manager Plan</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="main col-10">
+            <div class="items-main m-3 text-light">
+                <div class="container py-4">
+                    <input class="btn btn-outline-primary radius50" type="button" value="Ram Traders">
+                    <input class="btn btn-outline-primary radius50" type="button" value="Godown 1">
+                    <input class="btn btn-outline-primary radius50" type="button" value="Godown 2">
+                    <input class="btn btn-outline-primary radius50" type="button" value="Godown 3">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4"> 
+                            <input class="form-control my-4" class="" type="date" name="" id="" value="2024-04-01">
+                            <input class="form-control my-4" type="search" placeholder="Search item name" name="" id="">
+                            <div class="border px-4 py-2 mt-4" style="width: 100%;">
+                                <div class="row">
+                                    <h6 class="text-dark py-0">Total Purchase</h6>
+                                </div>
+                                <div class="row">
+                                    <h2 class="text-danger pt-0">Rs. 400</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <select class="form-select my-4" name="" id="">
+                                <option value="">Select Category</option>
+                                <option value="">Category #1</option>
+                                <option value="">Category #2</option>
+                                <option value="">Category #3</option>
+                                <option value="">Category #4</option>
+                            </select>
+                            <select class="form-select w-50" name="" id="">
+                                <option value="">Stock Filter</option>
+                                <option value="">Stock #1</option>
+                                <option value="">Stock #2</option>
+                                <option value="">Stock #3</option>
+                                <option value="">Stock #4</option>
+                            </select>
+                            <div class="border px-4 py-2 mt-4" style="width: 100%;">
+                                <div class="row">
+                                    <h6 class="text-dark pb-0">Total Purchase</h6>
+                                </div>
+                                <div class="row">
+                                    <h2 class="text-secondary pt-0">Rs. 400</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex" style="flex-direction: column; align-items: end;">
+                            <select class="form-select  w-25 mt-4" name="" id="">
+                                <option value="">Report </option>
+                                <option value="">Stock #1</option>
+                                <option value="">Stock #2</option>
+                                <option value="">Stock #3</option>
+                                <option value="">Stock #4</option>
+                            </select>
+                            <section class="container">
+                                <div class="row  my-4">
+                                    <div class="col-6">
+                                        <select class="form-select" name="" id="">
+                                            <option value="">Stock Transfer</option>
+                                            <option value="">Stock #1</option>
+                                            <option value="">Stock #2</option>
+                                            <option value="">Stock #3</option>
+                                            <option value="">Stock #4</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-6 d-flex" style="padding: 0;">
+                                        <a href="addItems.html" style="width: 100%; margin: 10;" type="button" class="btn btn-primary" >Add Item</a>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="border px-4 py-2" style="width: 100%;">
+                                <div class="row">
+                                    <h6 class="text-dark pb-0">Total Purchase</h6>
+                                </div>
+                                <div class="row">
+                                    <h2 class="text-dark pt-0">Rs. 400</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container-fluid">
+                <table class="table">                    
+                    <thead class="thead-dark">
+                        <tr>
+                            <th class="col">Item</th>
+                            <th class="col">Opening Stock</th>
+                            <th class="col">Total Stock In</th>
+                            <th class="col">Total stock Out</th>
+                            <th class="col">Remaining Stock</th>
+                            <th class="col"> </th>
+                        </tr>
+                    </thead>
+
+                    <tbody class="" style=" overflow: scroll;">
+                            <tr>
+                                <td>Pineaple</td>
+                                <td>100 KG</td>
+                                <td>10 KG</td>
+                                <td>60 KG</td>
+                                <td>50 KG</td>
+                                <td class="d-flex" style="align-items: end; justify-content: end; justify-items: end;">
+                                    <div class="row ms-0 p-0">
+                                        <div class="col-6 d-flex" style="align-items: end; justify-content: end; justify-items: end;">
+                                            <input class="btn btn-outline-danger py-1" type="button" value="Stock In">
+                                        </div>
+                                        <div class="col-6">
+                                            <input class="btn btn-outline-primary py-1"  type="button" value="Stock Out">
+                                        </div>
+                                    </div>
+                                </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.content{
+    height: 100vh;
+}
+.nav {
+    display: block;
+}
+
+ul a{
+    border-radius: 10px;
+}ul a:hover, .text-light-1:hover{
+    background-color: aliceblue;
+    border-radius: 10px;
+    color: black;
+}
+.text-light-1{
+    color: #fff;
+}
+
+ul a:hover{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.radius50{
+    border-radius: 50px;
+}

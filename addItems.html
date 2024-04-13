@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Items || Software</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="container-fluid row content">
+        <section class="sidebar col-2 bg-dark">
+            <div class="items-sidebar m-3 text-light">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light-1">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-light-1">All Entries & Bill</a>
+                    </li>
+                     <li class="nav-item">
+                        <a href="managerstaff.html" class="nav-link text-light-1">Manage Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="settings.html" class="nav-link text-light-1">Settings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light-1">Manager Plan</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="main col-10">
+            <div class="items-main m-3 text-light">
+                <div class="container py-4">
+                    <input class="btn btn-outline-primary radius50" type="button" value="Ram Traders">
+                    <input class="btn btn-outline-primary radius50" type="button" value="Godown 1">
+                    <input class="btn btn-outline-primary radius50" type="button" value="Godown 2">
+                    <input class="btn btn-outline-primary radius50" type="button" value="Godown 3">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-1"> 
+                            <input class="form-control mt-4" class="" type="number" name="" id="" value="1">
+                        </div>
+                        <div class="col-4"> 
+                            <input class="form-control mt-4" class="" type="date" name="" id="" value="2024-04-01">
+                        </div>
+                        <div class="col-4"> 
+                            <select class="form-select mt-4" name="" id="">
+                                <option value="">Select Catergory</option>
+                                <option value="">Stock #1</option>
+                                <option value="">Stock #2</option>
+                                <option value="">Stock #3</option>
+                                <option value="">Stock #4</option>
+                            </select>
+                        </div>
+                        <div class="col-3"> 
+                            <select class="form-select mt-4" name="" id="">
+                                <option value="">Select Unit</option>
+                                <option value="">ML</option>
+                                <option value="">KG</option>
+                                <option value="">litre</option>
+                            </select>
+                        </div>                     
+                    </div>
+                    <div class="row">
+                        <div class="col-4"> 
+                            <select class="form-select mt-3" name="" id="">
+                                <option value="">Product Detail</option>
+                                <option value="">Stock #1</option>
+                                <option value="">Stock #2</option>
+                                <option value="">Stock #3</option>
+                                <option value="">Stock #4</option>
+                            </select>
+                        </div>
+                        <div class="col-4"> 
+                            <select class="form-select mt-3" name="" id="">
+                                <option value="">QTD</option>
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                                <option value="">7</option>
+                                <option value="">8</option>
+                                <option value="">9</option>
+                                <option value="">10</option>
+                            </select>
+                        </div>
+                        <div class="col-4"> 
+                            <input class="form-control my-3" class="" type="number" name="" id="" value="" placeholder="Price">
+                        </div>                     
+                    </div>
+                </div>
+                <div class="container row d-flex" >
+                    <div class="col d-flex" style="align-items: end; justify-content: end;">
+                        <input style="padding: 5px 30px; margin: 0px 14px;" class="btn btn-outline-primary" type="button" value="Add">
+                        <input style="padding: 5px 20px;" class="btn btn-outline-danger" type="button" value="Cancel">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h4 class="lead text-center">Lastest Products Updated</h4>
+            </div>
+
+            <div class="container-fluid mt-4">
+                <table class="table">                    
+                    <thead class="thead-dark">
+                        <tr>
+                            <th class="col">ID</th>
+                            <th class="col">Product Details</th>
+                            <th class="col">QTD</th>
+                            <th class="col">Unit</th>
+                            <th class="col">Category</th>
+                            <th class="col">Price</th>
+                            <th class="col">Date</th>
+                        </tr>
+                    </thead>
+
+                    <tbody class="" style=" overflow: scroll;">
+                        <tr>
+                            <td>1</td>
+                            <td>Pineaple</td>
+                            <td>10</td>
+                            <td>60 KG</td>
+                            <td>Fruit</td>
+                            <td>100</td>
+                            <td>10/04/2024</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
